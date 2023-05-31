@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:paddingEnd="45dp">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_kokomi" />
+
+    <TextView
+        android:id="@+id/tv_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rectangle_chat"
+        android:gravity="left|top"
+        android:maxWidth="300dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:textColor="#191919"
+        android:textSize="16sp"
+        android:breakStrategy="simple"
+        tools:text="你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好" />
+
+</LinearLayout>
